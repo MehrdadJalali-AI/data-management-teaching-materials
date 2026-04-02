@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:dcterms="http://purl.org/dc/terms/">
+
+  <dc:title>2025 Global Climate Data</dc:title>
+  <dc:creator>Global Climate Data Team</dc:creator>
+  <dc:publisher>Open Research Repository (Teaching)</dc:publisher>
+  <dc:identifier>10.1234/gcd-2025</dc:identifier>
+  <dcterms:description>Short example Dublin Core record for a climate teaching dataset.</dcterms:description>
+</metadata>
+

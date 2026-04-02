@@ -1,0 +1,10 @@
+name: data-management-1
+channels:
+  - defaults
+dependencies:
+  - python=3.11
+  - pip
+  - pip:
+      - pandas>=2.0.0
+      - jupyter>=1.0.0
+
