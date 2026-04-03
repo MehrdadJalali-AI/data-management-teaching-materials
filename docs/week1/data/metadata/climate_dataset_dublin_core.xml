@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:dcterms="http://purl.org/dc/terms/">
+
+  <dc:title>2025 Global Climate Data</dc:title>
+
+  <dc:creator>Global Climate Data Team</dc:creator>
+
+  <dc:publisher>Open Research Repository (Teaching)</dc:publisher>
+
+  <dc:identifier>10.1234/gcd-2025</dc:identifier>
+
+  <dcterms:description>
+    A small teaching dataset containing fictional annual climate summaries.
+    Variables include average temperature, rainfall, and CO2 emissions for two fictional countries (Alandia and Borealia) from 2021 to 2023.
+  </dcterms:description>
+
+  <dc:subject>climate</dc:subject>
+  <dc:subject>temperature</dc:subject>
+  <dc:subject>rainfall</dc:subject>
+  <dc:subject>CO2 emissions</dc:subject>
+
+  <dc:date>2025-12-31</dc:date>
+  <dc:format>text/csv</dc:format>
+
+</metadata>
+

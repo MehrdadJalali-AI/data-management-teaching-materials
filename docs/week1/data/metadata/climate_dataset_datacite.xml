@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resource
+  xmlns="http://datacite.org/schema/kernel-4"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://datacite.org/schema/kernel-4 http://schema.datacite.org/meta/kernel-4/metadata.xsd">
+
+  <identifier identifierType="DOI">10.1234/gcd-2025</identifier>
+
+  <creators>
+    <creator>
+      <creatorName>Global Climate Data Team</creatorName>
+    </creator>
+  </creators>
+
+  <titles>
+    <title>2025 Global Climate Data</title>
+  </titles>
+
+  <publisher>Open Research Repository (Teaching)</publisher>
+
+  <publicationYear>2025</publicationYear>
+
+  <resourceType resourceTypeGeneral="Dataset">Dataset</resourceType>
+
+  <descriptions>
+    <description descriptionType="Abstract">
+      A small teaching dataset containing fictional annual climate summaries.
+      Variables include average temperature, rainfall, and CO2 emissions for two fictional countries
+      (Alandia and Borealia) from 2021 to 2023.
+    </description>
+  </descriptions>
+
+  <subjects>
+    <subject>climate</subject>
+    <subject>temperature</subject>
+    <subject>rainfall</subject>
+    <subject>CO2 emissions</subject>
+  </subjects>
+
+</resource>
+
