@@ -1,193 +1,30 @@
-## Data Management 1 (4-Week Teaching Repository)
+# Week 2 notebooks — Data Management 1
 
-Welcome to **Data Management 1**, a beginner-friendly teaching repository focused on how to manage data responsibly in academic and professional settings. The course emphasizes the practical meaning of **FAIR principles**, the role of **DOIs and repositories**, and the foundations of **metadata** (including **Dublin Core**, **DataCite**, and **schema.org**).
+This folder contains **Jupyter notebooks** for **Week 2** on **Data Quality**.
 
-### Repository purpose
+## Suggested order
 
-This repository helps students and instructors:
-- understand why data management matters,
-- apply FAIR principles in an evidence-based way,
-- interpret how DOIs and repositories support persistent access and citation,
-- practice parsing and comparing metadata standards locally with Python,
-- and perform practical data quality profiling, KPI measurement, and audit reporting.
+| Order | Notebook | Session |
+|------:|----------|---------|
+| 1 | `01_day1_data_quality_intro_and_profiling.ipynb` | Day 1 |
+| 2 | `02_day1_data_quality_kpis.ipynb` | Day 1 |
+| 3 | `03_day2_validation_rules_and_audit.ipynb` | Day 2 |
+| 4 | `04_day2_group_exercise_data_quality_check.ipynb` | Day 2 |
+| 5 | `05_individual_exercise_data_quality_audit.ipynb` | Homework |
 
-### Target audience
+## Week 2 focus
 
-This repository is designed for:
-- University students in **data management / data science** with basic Python familiarity
-- Instructors who want a structured, reproducible teaching setup for Weeks 1 and 2
+- data quality dimensions
+- identifying issues and profiling
+- KPI calculation
+- validation rules
+- audit reporting and recommendations
 
-### Current scope
+Week 2 does **not** implement full cleaning pipelines; those come in the next chapter.
 
-- **Weeks 1 and 2 are fully implemented**
-- **Weeks 3–4 are scaffolded placeholders**
+## Data files used
 
-### What you will learn (Week 1)
-
-By the end of Week 1, students should be able to:
-- Explain why data management matters and identify common data challenges
-- Interpret and apply the **FAIR** principles (Findable, Accessible, Interoperable, Reusable)
-- Understand what **metadata** is, why it matters, and the difference between metadata types
-- Compare **Dublin Core**, **DataCite**, and **schema.org** in practical terms
-- Access and parse metadata examples using Python (locally, without internet access)
-- Connect metadata quality to **FAIR Findability and Reusability**
-
-### Week 1 overview
-
-- **Day 1 (Foundations and FAIR):** Data management basics up to FAIR principles, ending with an in-class FAIR assessment activity.
-- **Day 2 (Metadata and Practice):** A metadata-focused day with multiple parsing notebooks and a structured in-class + homework exercise.
-
-### What you will learn (Week 2)
-
-By the end of Week 2, students should be able to:
-- Explain and apply core data quality dimensions (accuracy, completeness, consistency, timeliness, uniqueness, integrity, validity, relevance, traceability)
-- Detect common quality issues in tabular datasets
-- Profile datasets and calculate practical quality KPIs
-- Define and run validation rules
-- Produce a short audit-style report with severity and next-step recommendations
-- Distinguish clearly between Week 2 scope (detect/measure/audit) and next chapter scope (clean/fix/transform)
-
-### Week 2 overview
-
-- **Day 1 (Data Quality Profiling + KPIs):** Detect quality issues and compute interpretable data quality metrics.
-- **Day 2 (Validation + Audit):** Build rule-based checks, summarize findings, and prepare recommendations for cleaning in the next chapter.
-
-### Repository contents (quick tree)
-
-Key folders:
-- `docs/` — teaching materials and exercises
-- `data/` — sample datasets and example metadata files
-- `notebooks/` — Week 1 and Week 2 Jupyter notebooks
-- `src/` — lightweight Python helper scripts imported by notebooks
-- `slides_support/` — ready-to-use lecture support snippets
-- Week structure:
-  - `docs/week1/` — fully implemented Day 1 and Day 2 materials + exercises + rubrics
-  - `docs/week2/` — fully implemented Data Quality materials
-  - `docs/week3/`, `docs/week4/` — TODO placeholders for later expansion
-
-Full top-level tree (overview):
-
-```text
-data-management-1/
-├── README.md
-├── LICENSE
-├── .gitignore
-├── requirements.txt
-├── environment.yml
-├── docs/
-│   ├── course_overview.md
-│   ├── teaching_plan_4_weeks.md
-│   ├── assessment_notes.md
-│   ├── week1/   (Day 1 + Day 2 fully implemented)
-│   ├── week2/   (Data Quality fully implemented)
-│   ├── week3/   (TODO placeholder)
-│   └── week4/   (TODO placeholder)
-├── data/
-│   ├── raw/         (Week 1 + Week 2 sample CSVs)
-│   ├── metadata/   (Dublin Core, DataCite, schema.org examples)
-│   └── repository_examples/
-├── notebooks/
-│   ├── week1/      (FAIR + metadata notebooks)
-│   └── week2/      (Data Quality notebooks + exercises)
-├── src/            (parsers + validators)
-└── slides_support/ (Week 1 lecture support snippets)
-```
-
-### Installation
-
-#### Option A: `pip` (recommended for beginners)
-
-```bash
-cd "data-management-1"
-python -m pip install -r requirements.txt
-```
-
-#### Option B: Conda (optional)
-
-```bash
-cd "data-management-1"
-conda env create -f environment.yml
-conda activate data-management-1
-```
-
-### How to run notebooks
-
-From the repository root (`data-management-1/`):
-
-```bash
-jupyter notebook
-```
-
-Then open the notebooks under:
-- `notebooks/week1/` (FAIR + metadata)
-- `notebooks/week2/` (data quality profiling, KPIs, validation, and audit)
-
-Notes:
-- Notebooks are written to use **relative paths** to `data/`
-- The notebooks are intended to run **offline** (no live API calls required)
-
-### How to use the sample data files
-
-Week 2 introduces intentionally messy CSV files in:
-- `data/raw/`
-
-Main Week 2 files:
-- `week2_healthcare_visits_messy.csv`
-- `week2_customer_transactions_messy.csv`
-- `week2_hr_employee_records_messy.csv`
-- `week2_group_exercise_orders_messy.csv`
-
-These files are designed for:
-- quality issue detection,
-- KPI calculations,
-- validation-rule checks,
-- and audit-style reporting (without full cleaning pipelines yet).
-
-### How to use the sample metadata files
-
-Example metadata files are stored in:
-- `data/metadata/`
-
-They describe the same dataset (**“2025 Global Climate Data”**) in three formats:
-- Dublin Core XML (`climate_dataset_dublin_core.xml`)
-- DataCite XML (`climate_dataset_datacite.xml`)
-- schema.org JSON-LD (`climate_dataset_schemaorg.jsonld`)
-
-The Week 1 notebooks show how to:
-- parse these files with Python
-- convert them into Python dictionaries / tables
-- compare metadata coverage across standards
-- perform lightweight “teaching demo” completeness checks
-
-### Teaching philosophy
-
-This course repository prioritizes:
-- **Practical understanding over theory**
-- **Small, reproducible examples**
-- **Clear learning objectives**
-- **Student inspection and iteration**
-
-### Future expansion
-
-In Weeks 3–4, you can extend the teaching repository with additional real-world activities such as:
-- data stewardship workflows
-- more advanced metadata modeling and validation
-- dataset documentation and licensing scenarios
-- more FAIR assessment practice
-
-For now, Weeks 3–4 contain placeholders so you can add your own content later.
-
----
-
-## Notes for instructors and students: recommended workflow
-
-Instructor workflow:
-- Assign Day 1 reading/handouts and run the Day 1 notebooks only as needed
-- Use the classroom exercises in `docs/week1/` to guide discussion
-- Use the helper scripts in `src/` to keep parsing logic consistent across notebooks
-
-Student workflow:
-- Read the relevant `docs/week1/` handouts
-- Run notebooks top-to-bottom for the day
-- Complete exercises using provided templates and sample metadata files
-
+- `../../data/raw/week2_healthcare_visits_messy.csv`
+- `../../data/raw/week2_customer_transactions_messy.csv`
+- `../../data/raw/week2_hr_employee_records_messy.csv`
+- `../../data/raw/week2_group_exercise_orders_messy.csv`
