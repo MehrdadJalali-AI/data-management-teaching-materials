@@ -1,0 +1,10 @@
+order_id,customer_id,order_date,ship_date,order_amount,quantity,product_category,country,email,last_updated
+O001,C501,2026-02-01,2026-02-03,120.0,2,Electronics,DE,a@example.com,2026-02-03
+O002,C502,01/02/2026,2026-02-05,89.5,1,electronics,Germany,b@example.com,2026-02-08
+O003,C503,2026/02/02,2026-02-01,55.0,1,Home,DE,c@example.com,2026-02-02
+O004,,2026-02-03,,-15,1,Beauty,FR,d@example.com,2026-02-04
+O005,C505,2026-02-30,2026-03-02,44.0,0,Sports,DE,invalid_mail,2026-03-20
+O006,C506,2026-02-05,2026-02-07,,3,Home,NL,f@example.com,
+O006,C506,2026-02-05,2026-02-07,,3,Home,NL,f@example.com,
+O007,C999,2026-02-06,2026-02-07,99999,1,Luxury,DE,g@example.com,2026-02-06
+,C508,2026-02-07,2026-02-08,32.5,1,Beauty,FR,h@example.com,2026-02-08

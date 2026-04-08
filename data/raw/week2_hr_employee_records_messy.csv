@@ -1,0 +1,11 @@
+employee_id,department_id,hire_date,birth_date,age,salary,contract_type,email,manager_id,last_updated
+E001,D10,2020-05-01,1990-04-20,35,62000,full-time,alice@corp.com,M001,2026-03-01
+E002,D10,2019/07/15,1987-09-09,38,-45000,full-time,bob@corp.com,M001,2026-03-02
+E003,,2021-01-10,2005-01-01,20,38000,part-time,carla@corp.com,M002,2026-03-02
+E004,D20,2022-11-30,1972-03-11,53,,contractor,david_at_corp.com,M003,2026-03-04
+E005,D99,2023-02-28,1984-06-06,41,71000,Full Time,eva@corp.com,M999,2026-03-04
+E006,D30,2024-04-01,1998-12-31,27,48000,intern,farid@corp.com,M004,2025-01-01
+E006,D30,2024-04-01,1998-12-31,27,48000,intern,farid@corp.com,M004,2025-01-01
+,D20,2025-01-10,2001-01-10,24,41000,part-time,gina@corp.com,M003,2026-03-05
+E008,D20,2025-15-01,1980-08-08,45,53000,part-time,hana@corp.com,M003,2026-03-06
+E009,D40,2023-10-10,1960-10-10,150,58000,full-time,ian@corp.com,,2026-03-08
