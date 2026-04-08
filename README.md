@@ -8,18 +8,19 @@ This repository helps students and instructors:
 - understand why data management matters,
 - apply FAIR principles in an evidence-based way,
 - interpret how DOIs and repositories support persistent access and citation,
-- and practice parsing and comparing metadata standards locally with Python.
+- practice parsing and comparing metadata standards locally with Python,
+- and perform practical data quality profiling, KPI measurement, and audit reporting.
 
 ### Target audience
 
 This repository is designed for:
 - University students in **data management / data science** with basic Python familiarity
-- Instructors who want a structured, reproducible teaching setup for Week 1
+- Instructors who want a structured, reproducible teaching setup for Weeks 1 and 2
 
 ### Current scope
 
-- **Week 1 is fully implemented**
-- **Weeks 2–4 are scaffolded only** (placeholders with TODO notes)
+- **Weeks 1 and 2 are fully implemented**
+- **Weeks 3–4 are scaffolded placeholders**
 
 ### What you will learn (Week 1)
 
@@ -36,17 +37,33 @@ By the end of Week 1, students should be able to:
 - **Day 1 (Foundations and FAIR):** Data management basics up to FAIR principles, ending with an in-class FAIR assessment activity.
 - **Day 2 (Metadata and Practice):** A metadata-focused day with multiple parsing notebooks and a structured in-class + homework exercise.
 
+### What you will learn (Week 2)
+
+By the end of Week 2, students should be able to:
+- Explain and apply core data quality dimensions (accuracy, completeness, consistency, timeliness, uniqueness, integrity, validity, relevance, traceability)
+- Detect common quality issues in tabular datasets
+- Profile datasets and calculate practical quality KPIs
+- Define and run validation rules
+- Produce a short audit-style report with severity and next-step recommendations
+- Distinguish clearly between Week 2 scope (detect/measure/audit) and next chapter scope (clean/fix/transform)
+
+### Week 2 overview
+
+- **Day 1 (Data Quality Profiling + KPIs):** Detect quality issues and compute interpretable data quality metrics.
+- **Day 2 (Validation + Audit):** Build rule-based checks, summarize findings, and prepare recommendations for cleaning in the next chapter.
+
 ### Repository contents (quick tree)
 
 Key folders:
 - `docs/` — teaching materials and exercises
 - `data/` — sample datasets and example metadata files
-- `notebooks/` — Week 1 Jupyter notebooks
+- `notebooks/` — Week 1 and Week 2 Jupyter notebooks
 - `src/` — lightweight Python helper scripts imported by notebooks
 - `slides_support/` — ready-to-use lecture support snippets
 - Week structure:
   - `docs/week1/` — fully implemented Day 1 and Day 2 materials + exercises + rubrics
-  - `docs/week2/`, `docs/week3/`, `docs/week4/` — TODO-only placeholders for later expansion
+  - `docs/week2/` — fully implemented Data Quality materials
+  - `docs/week3/`, `docs/week4/` — TODO placeholders for later expansion
 
 Full top-level tree (overview):
 
@@ -62,15 +79,16 @@ data-management-1/
 │   ├── teaching_plan_4_weeks.md
 │   ├── assessment_notes.md
 │   ├── week1/   (Day 1 + Day 2 fully implemented)
-│   ├── week2/   (TODO placeholder)
+│   ├── week2/   (Data Quality fully implemented)
 │   ├── week3/   (TODO placeholder)
 │   └── week4/   (TODO placeholder)
 ├── data/
-│   ├── raw/         (sample CSVs)
+│   ├── raw/         (Week 1 + Week 2 sample CSVs)
 │   ├── metadata/   (Dublin Core, DataCite, schema.org examples)
 │   └── repository_examples/
 ├── notebooks/
-│   └── week1/      (offline teaching notebooks)
+│   ├── week1/      (FAIR + metadata notebooks)
+│   └── week2/      (Data Quality notebooks + exercises)
 ├── src/            (parsers + validators)
 └── slides_support/ (Week 1 lecture support snippets)
 ```
@@ -100,11 +118,30 @@ From the repository root (`data-management-1/`):
 jupyter notebook
 ```
 
-Then open the notebooks under `notebooks/week1/`.
+Then open the notebooks under:
+- `notebooks/week1/` (FAIR + metadata)
+- `notebooks/week2/` (data quality profiling, KPIs, validation, and audit)
 
 Notes:
 - Notebooks are written to use **relative paths** to `data/`
 - The notebooks are intended to run **offline** (no live API calls required)
+
+### How to use the sample data files
+
+Week 2 introduces intentionally messy CSV files in:
+- `data/raw/`
+
+Main Week 2 files:
+- `week2_healthcare_visits_messy.csv`
+- `week2_customer_transactions_messy.csv`
+- `week2_hr_employee_records_messy.csv`
+- `week2_group_exercise_orders_messy.csv`
+
+These files are designed for:
+- quality issue detection,
+- KPI calculations,
+- validation-rule checks,
+- and audit-style reporting (without full cleaning pipelines yet).
 
 ### How to use the sample metadata files
 
@@ -132,13 +169,13 @@ This course repository prioritizes:
 
 ### Future expansion
 
-In Weeks 2–4, you will extend the teaching repository with additional real-world activities such as:
+In Weeks 3–4, you can extend the teaching repository with additional real-world activities such as:
 - data stewardship workflows
 - more advanced metadata modeling and validation
 - dataset documentation and licensing scenarios
 - more FAIR assessment practice
 
-For now, Weeks 2–4 contain only placeholders so you can add your own content later.
+For now, Weeks 3–4 contain placeholders so you can add your own content later.
 
 ---
 
