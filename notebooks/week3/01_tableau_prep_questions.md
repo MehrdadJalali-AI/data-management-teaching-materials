@@ -7,7 +7,7 @@
 This sheet connects **Chapter 3: Data cleaning** ideas to a **low-code** environment. The goal is not memorizing every button—it is to **think** like an analyst: *What is wrong? What rule fixes it? How do I check the result?*
 
 **Dataset to use (same idea as the Week 3 Day 1 notebook):**  
-Import `data/week3/week3_messy_data.csv` from this repository (retail-style **orders**: `order_id`, `customer_id`, `order_date`, `city`, `category`, `quantity`, `order_amount`, `shipping_days`, `department`, `line_total`). If that file is not on your machine yet, run the Week 3 notebook once to generate it, or ask your instructor for the CSV.
+Import `../../data/week3/week3_messy_data.csv` from this notebook folder (or `data/week3/week3_messy_data.csv` from the repository root). Retail-style **orders**: `order_id`, `customer_id`, `order_date`, `city`, `category`, `quantity`, `order_amount`, `shipping_days`, `department`, `line_total`. If that file is not on your machine yet, run `01_in_class_data_cleaning_fundamentals.ipynb` once to generate it, or ask your instructor for the CSV.
 
 ---
 
