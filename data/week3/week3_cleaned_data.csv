@@ -1,0 +1,29 @@
+order_id,customer_id,order_date,city,category,quantity,order_amount,shipping_days,department,line_total,order_date_clean,spend_per_unit
+O001,C10,2026-01-05,New York,electronics,2.0,49.99,3.0,HR,99.98,2026-01-05,24.995
+O002,C11,01/06/2026,New York,electronics,2.0,40.0,2.0,hr,240.0,2026-01-06,20.0
+O003,C12,2026/13/40,Chicago,home,1.0,15.5,2.0,Finance,15.5,2026-01-01,15.5
+O004,C10,2026-01-05,New York,electronics,2.0,49.99,3.0,HR,99.98,2026-01-05,24.995
+O005,C13,06-01-2026,New York,electronics,3.0,42.0,1.0,finance,-15.0,2026-06-01,14.0
+O006,C14,2026-01-08,Chicago,electronics,0.0,89.0,4.0,HR,0.0,2026-01-08,20.0
+O007,C15,2026-01-09,Boston,sports,1.0,40.0,2.0,Ops,250.0,2026-01-09,40.0
+O008,C16,2026/01/10,Boston,sports,2.0,40.0,5.0,ops,80.0,2026-01-10,20.0
+O009,C17,2026-01-11,Seattle,electronics,2.0,60.0,1.0,HR,120.0,2026-01-11,30.0
+O010,C18,2026-01-12,Seattle,electronics,1.0,55.0,2.0,Hr,55.0,2026-01-12,55.0
+O011,C19,2026-01-13,Austin,home,4.0,22.0,0.0,Finance,88.0,2026-01-13,5.5
+O012,C20,2026-01-14,Austin,home,2.0,30.0,3.0,finance,60.0,2026-01-14,15.0
+O013,C21,2026-01-15,Miami,beauty,1.0,18.0,2.0,Marketing,18.0,2026-01-15,18.0
+O014,C22,2026-01-16,Miami,beauty,2.0,20.0,1.0,marketing,40.0,2026-01-16,10.0
+O015,C23,2026-01-17,Denver,electronics,10.0,40.0,2.0,HR,99990.0,2026-01-17,4.0
+O016,C24,2026-01-18,Denver,electronics,1.0,70.0,4.0,hr,70.0,2026-01-18,70.0
+O017,C25,2026-01-19,Portland,sports,2.0,45.0,6.0,Ops,90.0,2026-01-19,22.5
+O018,C26,2026-01-20,Portland,sports,1.0,50.0,2.0,OPS,50.0,2026-01-20,50.0
+O019,C27,2026-01-21,Dallas,home,2.0,33.0,2.0,Finance,66.0,2026-01-21,16.5
+O020,C28,2026-01-22,Dallas,home,1.0,28.0,1.0,finance,28.0,2026-01-22,28.0
+O021,C29,2026-01-23,Phoenix,beauty,3.0,12.0,2.0,Marketing,36.0,2026-01-23,4.0
+O022,C30,2026-01-24,Phoenix,beauty,1.0,14.0,3.0,Marketing,14.0,2026-01-24,14.0
+O023,C31,2026-01-25,Atlanta,electronics,2.0,95.0,2.0,HR,190.0,2026-01-25,47.5
+O024,C32,2026-01-26,Atlanta,electronics,1.0,110.0,1.0,hr,110.0,2026-01-26,110.0
+O025,C33,2026-01-27,Detroit,sports,1.0,38.0,4.0,Ops,38.0,2026-01-27,38.0
+O026,C34,2026-01-28,Detroit,sports,2.0,42.0,2.0,ops,84.0,2026-01-28,21.0
+O027,C35,2026-01-29,Orlando,home,2.0,25.0,1.0,Finance,50.0,2026-01-29,12.5
+O028,C36,2026-01-30,Orlando,home,2.0,27.0,2.0,finance,54.0,2026-01-30,13.5

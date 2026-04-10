@@ -1,0 +1,29 @@
+order_id,customer_id,order_date,city,category,quantity,order_amount,shipping_days,department,line_total
+O001,C10,2026-01-05,  new york ,electronics,2.0,49.99,3.0,HR,99.98
+O002,C11,01/06/2026,NYC,Electronics,,120.0,2.0,hr,
+O003,C12,2026/13/40,Chicago,home,1.0,15.5,,Finance,
+O004,C10,2026-01-05,  new york ,electronics,2.0,49.99,3.0,HR,99.98
+O005,C13,06-01-2026,New York,,3.0,-5.0,1.0,finance,-15.0
+O006,C14,2026-01-08,Chcago,electronics,0.0,89.0,4.0,HR,0.0
+O007,C15,2026-01-09,boston,sports,1.0,250.0,2.0,Ops,250.0
+O008,C16,2026/01/10,BOSTON,Sports,2.0,40.0,5.0,ops,80.0
+O009,C17,2026-01-11,Seattle,electronics,,60.0,1.0,HR,
+O010,C18,2026-01-12,seattle,Electronics,1.0,55.0,2.0,Hr,55.0
+O011,C19,2026-01-13,Austin,home,4.0,22.0,0.0,Finance,88.0
+O012,C20,2026-01-14,AUSTIN,Home,2.0,30.0,3.0,finance,60.0
+O013,C21,2026-01-15,Miami,beauty,1.0,18.0,2.0,Marketing,
+O014,C22,2026-01-16,miami,Beauty,,20.0,1.0,marketing,
+O015,C23,2026-01-17,Denver,electronics,10.0,9999.0,2.0,HR,99990.0
+O016,C24,2026-01-18,denver,electronics,1.0,70.0,4.0,hr,70.0
+O017,C25,2026-01-19,Portland,sports,2.0,45.0,6.0,Ops,90.0
+O018,C26,2026-01-20,PORTLAND,SPORTS,1.0,50.0,2.0,OPS,
+O019,C27,2026-01-21,Dallas,home,2.0,33.0,,Finance,66.0
+O020,C28,2026-01-22,dallas,HOME,1.0,28.0,1.0,finance,28.0
+O021,C29,2026-01-23,Phoenix,beauty,3.0,12.0,2.0,Marketing,
+O022,C30,2026-01-24,PHOENIX,beauty,1.0,14.0,3.0,Marketing,14.0
+O023,C31,2026-01-25,Atlanta,electronics,2.0,95.0,2.0,HR,190.0
+O024,C32,2026-01-26,atlanta,electronics,1.0,110.0,1.0,hr,110.0
+O025,C33,2026-01-27,Detroit,sports,1.0,38.0,4.0,Ops,38.0
+O026,C34,2026-01-28,DETROIT,sports,2.0,42.0,2.0,ops,84.0
+O027,C35,2026-01-29,Orlando,home,,25.0,1.0,Finance,
+O028,C36,2026-01-30,orlando,home,2.0,27.0,2.0,finance,54.0
