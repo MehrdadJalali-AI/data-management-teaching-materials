@@ -1,0 +1,16 @@
+Employee_ID,Employee_Name,Department,Age,Salary,Hire_Date,City
+E001,Anna Weber,IT,29,52000,2021-03-15,Heidelberg
+E002,Markus Schmidt,Finance,41,61000,2018-07-01,Karlsruhe
+E003,Sara Hoffmann,IT,35,58000,2020-01-20,Mannheim
+E004,David Fischer,HR,46,54000,2016-09-12,Stuttgart
+E005,Lina Keller,Marketing,31,50000,2022-05-10,Heidelberg
+E006,Omar Yilmaz,IT,52,72000,2014-11-03,Karlsruhe
+E007,Emma Braun,Sales,27,47000,2023-02-01,Mannheim
+E008,Jonas Wagner,Finance,38,64000,2019-06-18,Stuttgart
+E009,Maya Becker,IT,44,69000,2017-04-25,Heidelberg
+E010,Noah Klein,Operations,33,51000,2021-10-06,Karlsruhe
+E011,Helga Braun,HR,64,66000,2008-08-14,Mannheim
+E012,Tim Schneider,IT,25,48000,2024-01-08,Stuttgart
+E013,Nina Koch,Marketing,39,56000,2019-12-02,Heidelberg
+E014,Felix Bauer,Sales,48,59000,2015-03-30,Karlsruhe
+E015,Lea Richter,Operations,30,49500,2022-09-19,Mannheim
